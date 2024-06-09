@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.square{
+  width: 50px;
+  height: 50px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: black;
+}
+
+.squareContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+
+}
+
+.backButton{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(229, 36, 10);
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.xMark {
+  color: white;
+  font-size: 2rem;
+}
